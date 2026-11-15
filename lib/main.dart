@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_3_advicer/2_application/pages/advice/advicer_page.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_3_advicer/2_application/core/services/theme_service.dart';
 import 'package:flutter_3_advicer/theme.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
           darkTheme: AppTheme.darkTheme,
           debugShowCheckedModeBanner: false,
           showSemanticsDebugger: false,
-          home: const Placeholder(),
+          home: const AdvicerPage(),
         );
       },
     );
